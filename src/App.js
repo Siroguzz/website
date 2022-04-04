@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import video1 from "./asset/video.mp4"
+import logo from "./asset/logo.png"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="welcome">
+      {/* <video src={video1} width="600" height="300" controls="none" autoplay="true" /> */}
+      <img src={logo} width="700" height="700" />
+      <h1 className="title-text">Coming Soon!</h1>
     </div>
   );
 }
